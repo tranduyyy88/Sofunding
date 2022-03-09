@@ -1,8 +1,8 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import EmailIcon from "@material-ui/icons/Email";
-import img_URL from "../assets/images/image_login.png";
-import logo from "../assets/images/logo.png";
+import img_URL from "../../assets/images/image_login.png";
+import logo from "../../assets/images/logo.png";
 import { InputAdornment, TextField } from "@material-ui/core";
 import IconButton from "@material-ui/core/IconButton";
 import OutlinedInput from "@material-ui/core/OutlinedInput";

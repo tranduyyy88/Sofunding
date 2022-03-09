@@ -2,7 +2,7 @@ import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import { InputAdornment, TextField } from "@material-ui/core";
 import SearchIcon from "@mui/icons-material/Search";
-import User from "../assets/images/user.png";
+import User from "../../assets/images/user.png";
 const useStyles = makeStyles((theme) => ({
   margin: {
     margin: theme.spacing(1),
