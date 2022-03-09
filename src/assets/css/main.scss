@@ -5,8 +5,6 @@ $max-width__Sidebar: 240px;
 }
 body {
   font-family: Poppins;
-  color: red;
-  color: blue;
 }
 .sidebar {
   padding: 30px 15px;
@@ -440,6 +438,121 @@ body {
           font-family: Poppins;
           width: 16.6666666667%;
           padding: 5px 0;
+        }
+      }
+    }
+  }
+}
+.main {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  &__Image {
+    padding: 200px;
+    img {
+      width: 100%;
+      display: flex;
+    }
+  }
+  &_Form {
+    background: #fff;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 20px;
+    img {
+      max-width: 190px;
+      margin: 0 auto;
+      margin-bottom: 50px;
+    }
+    &--Content {
+      label {
+        font-family: Poppins !important;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 21px;
+        color: #030343;
+        display: block;
+        margin-bottom: 10px;
+        transform: none;
+        position: relative;
+      }
+      .MuiTextField-root {
+        width: 100%;
+        margin: 0;
+        margin-bottom: 20px;
+        .MuiInputBase-root {
+          margin: 0;
+          background: #f9f9f9;
+          border-radius: 10px;
+          padding: 15px;
+          &::after,
+          &::before {
+            display: none;
+          }
+          path {
+            color: #3984f4;
+          }
+          input {
+            padding: 0;
+            height: auto;
+          }
+        }
+      }
+      .MuiOutlinedInput-root {
+        width: 100%;
+        background: #f9f9f9;
+        border-radius: 10px;
+        margin-bottom: 30px;
+        input {
+          padding: 15px;
+        }
+        fieldset {
+          display: none;
+        }
+      }
+      .button_Login {
+        background: #3984f4;
+        border-radius: 10px;
+        width: 100%;
+        border: 0;
+        line-height: 51px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        color: #ffffff;
+        margin-bottom: 45px;
+        display: block;
+        text-align: center;
+        text-decoration: none;
+      }
+      .button_signup {
+        background: #ffffff;
+        border: 1px solid #3984f4;
+        border-radius: 10px;
+        width: 100%;
+        line-height: 51px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        color: #3984f4;
+        display: block;
+        text-align: center;
+        text-decoration: none;
+      }
+      p {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        color: #030343;
+        text-align: center;
+        a {
+          color: #3984f4;
         }
       }
     }

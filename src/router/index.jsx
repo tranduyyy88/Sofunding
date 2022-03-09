@@ -1,16 +1,15 @@
-import React from 'react'
-import { Routes, Route } from 'react-router-dom'
-import App from '../App'
-import Login from '../pages/auth/Login'
-import HomePage from '../pages/home'
-import { PATH } from '../constants/path'
+import React from "react";
+import { Routes, Route } from "react-router-dom";
+import HomePage from "../pages/home";
+import { PATH } from "../constants/path";
+import Auth from "../pages/auth/Auth";
 const Router = () => {
   return (
     <Routes>
       <Route path={PATH.HOME} element={<HomePage />} />
-      <Route path={PATH.LOGIN} element={<Login />} />
+      <Route path={PATH.AUTH} element={<Auth />} />
     </Routes>
-  )
-}
+  );
+};
 
-export default Router
+export default Router;
